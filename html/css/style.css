@@ -110,3 +110,34 @@ header {
     font-size: 1.05rem;
     margin-bottom: 35px;
 }
+
+/* Knoppen */
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    padding: 14px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.25s;
+}
+
+.primary-btn {
+    background: #22d3ee;
+    color: #081018;
+}
+
+.primary-btn:hover {
+    transform: translateY(-3px);
+}
+
+.secondary-btn {
+    border: 1px solid #334155;
+}
+
+.secondary-btn:hover {
+    border-color: #22d3ee;
+    color: #22d3ee;
+}
