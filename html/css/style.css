@@ -141,3 +141,105 @@ header {
     border-color: #22d3ee;
     color: #22d3ee;
 }
+
+/* Card voor code deel */
+.code-window {
+    background: #111827;
+
+    border: 1px solid #1e293b;
+    border-radius: 15px;
+
+    padding: 25px;
+
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.3);
+}
+
+.window-buttons {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 30px;
+}
+
+.window-buttons span {
+    width: 11px;
+    height: 11px;
+    background: #475569;
+    border-radius: 50%;
+}
+
+pre {
+    overflow-x: auto;
+    color: #cbd5e1;
+}
+
+.purple {
+    color: #c084fc;
+}
+
+.green {
+    color: #86efac;
+}
+
+.orange {
+    color: #fb923c;
+}
+
+/* Styling voor sections */
+.about,
+.skills,
+.featured,
+.projects-page,
+.blog-list {
+    max-width: 1200px;
+    margin: auto;
+    padding: 100px 30px;
+}
+
+.section-heading {
+    margin-bottom: 50px;
+}
+
+.section-heading p,
+.page-header > p:first-child {
+    color: #22d3ee;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.section-heading h2 {
+    font-size: 2.6rem;
+}
+
+/* About */
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.about-card {
+    background: #111827;
+    padding: 35px;
+    border: 1px solid #1e293b;
+    border-radius: 12px;
+    transition: 0.25s;
+}
+
+.about-card:hover {
+    transform: translateY(-6px);
+    border-color: #22d3ee;
+}
+
+.card-icon {
+    font-size: 2rem;
+    color: #22d3ee;
+    margin-bottom: 20px;
+}
+
+.about-card h3 {
+    margin-bottom: 10px;
+}
+
+.about-card p {
+    color: #94a3b8;
+}
