@@ -243,3 +243,24 @@ pre {
 .about-card p {
     color: #94a3b8;
 }
+
+/* Skills */
+.skills {
+    border-top: 1px solid #1e293b;
+    border-bottom: 1px solid #1e293b;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skill-list span,
+.tags span {
+    padding: 9px 15px;
+    border: 1px solid #334155;
+    background: #111827;
+    border-radius: 100px;
+    color: #cbd5e1;
+}
