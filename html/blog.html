@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Shriya's blog</title>
+
     <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/blog.js" defer></script>
 </head>
+
 <body>
 
 <header>
 
     <nav class="navbar">
 
-        <a href="index.html" class="logo">SHRIYA<span>.DEV</span></a>
+        <a href="index.html" class="logo">
+            SHRIYA<span>.DEV</span>
+        </a>
 
         <ul class="nav-links">
             <li><a href="index.html">Whoami</a></li>
             <li><a href="projects.html">Projecten</a></li>
             <li><a href="blog.html" class="active">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
 
     </nav>
@@ -49,9 +58,7 @@
                 1 september 2026
             </time>
 
-            <h2>
-                Mijn start met Webprogramming
-            </h2>
+            <h2>Mijn start met Webprogramming</h2>
 
             <p>
                 In de eerste les heb ik geleerd hoe browsers,
@@ -59,7 +66,20 @@
                 website wordt geopend.
             </p>
 
-            <a href="#">Lees meer →</a>
+            <p id="blog-extra-1" hidden>
+                Ik heb geleerd dat DNS een domeinnaam omzet naar
+                een IP-adres. Daarna wordt een verbinding gemaakt
+                met de server en stuurt de browser een HTTP-request.
+                De server stuurt vervolgens een response terug.
+            </p>
+
+            <button
+                type="button"
+                class="blog-toggle"
+                aria-expanded="false"
+                aria-controls="blog-extra-1">
+                Lees meer
+            </button>
 
         </article>
 
@@ -70,16 +90,26 @@
                 8 september 2026
             </time>
 
-            <h2>
-                Waarom responsive design belangrijk is
-            </h2>
+            <h2>Waarom responsive design belangrijk is</h2>
 
             <p>
                 Een website moet niet alleen goed werken op een
                 computer, maar ook op tablets en smartphones.
             </p>
 
-            <a href="#">Lees meer →</a>
+            <p id="blog-extra-2" hidden>
+                Met responsive design kan de layout zich aanpassen
+                aan verschillende schermformaten. Hiervoor gebruik
+                ik onder andere media queries, Flexbox en CSS Grid.
+            </p>
+
+            <button
+                type="button"
+                class="blog-toggle"
+                aria-expanded="false"
+                aria-controls="blog-extra-2">
+                Lees meer
+            </button>
 
         </article>
 
@@ -90,16 +120,28 @@
                 15 september 2026
             </time>
 
-            <h2>
-                Van MBO naar HBO Software Development
-            </h2>
+            <h2>Van MBO naar HBO Software Development</h2>
 
             <p>
                 Mijn ervaring met software development en wat ik
                 verder wil leren tijdens mijn HBO-opleiding.
             </p>
 
-            <a href="#">Lees meer →</a>
+            <p id="blog-extra-3" hidden>
+                Tijdens mijn MBO-opleiding heb ik al ervaring
+                opgedaan met verschillende programmeertalen.
+                Tijdens het HBO wil ik mij verder ontwikkelen in
+                software engineering, webdevelopment en het bouwen
+                van grotere applicaties.
+            </p>
+
+            <button
+                type="button"
+                class="blog-toggle"
+                aria-expanded="false"
+                aria-controls="blog-extra-3">
+                Lees meer
+            </button>
 
         </article>
 
